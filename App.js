@@ -1,94 +1,34 @@
-import React, {Component} from 'react';
-import {StyleSheet, View, Text, Button, Modal, TextInput, TouchableOpacity, Keyboard} from 'react-native';
-import AsyncStorage from '@react-native-community/async-storage';
+import * as React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
-export default class App extends Component{
-  constructor(props){
-    super(props);
-    this.state = {
-      input: '',
-      nome: '',
-    }
-    this.gravarNome = this.gravarNome.bind(this);
-  }
-  //toda vez que o app é montado ele executa essa funçao éâä♪
-  async componentDidMount(){
-    await AsyncStorage.getItem('nome').then((value) => {
-      this.setState({nome: value});
-    });
-  }
+import Home from './src/Home';
+import Sobre from './src/Sobre';
+import Contato from './src/Contato';
 
-  //toda vez que um state é mudado, ele executa essa função
-  async componentDidUpdate(_, prevState){
-    const nome = this.state.nome;
+const Tab = createBottomTabNavigator();
 
-    if(prevState !== nome){
-      await AsyncStorage.setItem('nome', nome);
-    }
-  }
-
-  gravarNome(){
-    this.setState({
-      nome: this.state.input,
-      input: '',
-    });
-    alert('Salvo com sucesso!');
-    Keyboard.dismiss();
-  }
-  render(){
-    return (
-    
-      <View style={styles.container}>
-        <View style={styles.viewInput}> 
-          <TextInput 
-            style={styles.input}
-            value={this.state.input}
-            onChangeText={(text) => this.setState({ input: text,})}
-            underlineColorAndroid='transparent'
-          />
-          <TouchableOpacity onPress={this.gravarNome}>
-            <Text style={styles.btn}> + </Text>
-          </TouchableOpacity>
-        </View>
-        <Text style={styles.nome}>Nome: {this.state.nome}</Text>
-      </View> 
-    );
-  }
+export default function MyStack() {
+  return (
+    <NavigationContainer>
+      <Tab.Navigator
+        tabBarOptions={{
+          activeTintColor: '#ff5555',
+          inactiveTintColor: 'gray',
+          style:{
+            backgroundColor: '#3d3d3d',
+          }
+        }}
+      >
+        
+        <Tab.Screen
+          name="Home"
+          component={Home}
+          options={{title: 'Teste'}}
+        />
+        <Tab.Screen name="Contato" component={Contato} />
+        <Tab.Screen name="Sobre" component={Sobre} />
+      </Tab.Navigator>
+    </NavigationContainer>
+  );
 }
-
-const styles = StyleSheet.create({
-
-  container:{
-    flex:1,
-    padding: 20,
-    backgroundColor: '#3d3d3d',
-  },
-  viewInput:{
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center'
-  },
-  input:{
-    backgroundColor: 'white',
-    width: 300,
-    borderRadius: 8
-  },
-  btn:{
-    flex: 1,
-    width: 50,
-    fontSize: 28,
-    textAlign: "center",
-    textAlignVertical: 'center',
-    backgroundColor: '#3455aa',
-    color: 'white',
-    fontWeight: 'bold',
-    borderRadius: 8,
-    marginLeft: 8,
-  },
-  nome:{
-    color: 'white',
-    fontSize: 32,
-    marginTop: 8,
-  },
-
-});
