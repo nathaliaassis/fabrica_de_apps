@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 import {StyleSheet, View, Text, TextInput, Picker, Switch, TouchableOpacity, TouchableWithoutFeedback,} from 'react-native';
 import Slider from '@react-native-community/slider';
 
-export default class App extends Component{
+export default class Desafio extends Component{
   constructor(props){
     super(props);
     this.state = {
-      nome: '',
-      idade: '',
+      inputnome: '',
+      inputIdade: '',
+      nome: this.state.inputnome,
+      idade: this.state.inputIdade,
       sexo: 0,
       generos: [
         {key: 1, select: 'Feminino'},
@@ -16,11 +18,26 @@ export default class App extends Component{
       ],
       limite: 0,
       estudante: false,
-      dados: '',
     }
 
     this.mostrarDados = this.mostrarDados.bind(this);
   }
+
+    //toda vez que o app é montado ele executa essa funçao éâä♪
+    async componentDidMount(){
+      await AsyncStorage.getItem('nome').then((value) => {
+        this.setState({nome: value});
+      });
+    }
+  
+    //toda vez que um state é mudado, ele executa essa função
+    async componentDidUpdate(_, prevState){
+      const nome = this.state.nome;
+  
+      if(prevState !== nome){
+        await AsyncStorage.setItem('nome', nome);
+      }
+    }
 
   mostrarDados(){
     let nome = this.state.nome;
@@ -32,6 +49,8 @@ export default class App extends Component{
     if(nome == '' || idade == '' ){
       alert('Os campos devem ser preenchidos corretamente')
     }
+    alert('Salvo com sucesso!');
+    Keyboard.dismiss();
 
     this.setState({
         dados: 'Nome: ' + nome + ' Idade: ' + idade + ' Sexo: ' +sexo+ ' Limite: ' + limite + ' É estudante? ' +estudante

@@ -1,22 +1,26 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-
+import {createDrawerNavigator} from '@react-navigation/drawer';
+ 
 import Home from './src/Home';
-import Sobre from './src/Sobre';
+import ProjetosRotas from './src/ProjetosRotas';
 import Contato from './src/Contato';
 
 const Tab = createBottomTabNavigator();
+const Drawer = createDrawerNavigator();
 
 export default function MyStack() {
   return (
     <NavigationContainer>
-      <Tab.Navigator
+      {/* <Tab.Navigator
+      initialRouteName="ProjetosRotas"
         tabBarOptions={{
-          activeTintColor: '#ff5555',
+          activeTintColor: '#2e246c',
           inactiveTintColor: 'gray',
+          labelPosition: 'beside-icon',
           style:{
-            backgroundColor: '#3d3d3d',
+            backgroundColor: 'white',
           }
         }}
       >
@@ -24,11 +28,18 @@ export default function MyStack() {
         <Tab.Screen
           name="Home"
           component={Home}
-          options={{title: 'Teste'}}
         />
+        <Tab.Screen name="ProjetosRotas" component={ProjetosRotas} />
         <Tab.Screen name="Contato" component={Contato} />
-        <Tab.Screen name="Sobre" component={Sobre} />
-      </Tab.Navigator>
+      </Tab.Navigator> */}
+      <Drawer.Navigator>
+        <Drawer.Screen
+          name="Home"
+          component={Home}
+        />
+        <Drawer.Screen name="ProjetosRotas" component={ProjetosRotas} />
+        <Drawer.Screen name="Contato" component={Contato} />
+      </Drawer.Navigator>
     </NavigationContainer>
   );
 }

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {StyleSheet, View, Text, TouchableOpacity, FlatList, Image} from 'react-native';
-import Lista from './src/Lista';
+import Lista from '../Lista';
 
-export default class App extends Component{
+export default class Insta extends Component{
   constructor(props){
     super(props);
     this.state = {
@@ -64,13 +64,13 @@ export default class App extends Component{
         <View style={styles.header}>
           <TouchableOpacity>
             <Image 
-              source={require('./src/img/logo.png')}
+              source={require('../img/logo.png')}
               style={styles.logo}
             />
           </TouchableOpacity>
           <TouchableOpacity>
             <Image 
-              source={require('./src/img/send.png')}
+              source={require('../img/send.png')}
               style={styles.send}
             />
           </TouchableOpacity>

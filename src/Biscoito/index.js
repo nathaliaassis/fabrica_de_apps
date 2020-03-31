@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {View, Text, Image, StyleSheet, TouchableOpacity,} from 'react-native';
 
-export default class App extends Component{
+export default class Biscoito extends Component{
 
   constructor(props){
     super(props);
     this.state = {
       textoFrase:'Clique no botão para mostrar frase',
-      img: require('./src/biscoito.png')
+      img: require('../biscoito.png')
     };
 
     this.quebrarBiscoito = this.quebrarBiscoito.bind(this);
@@ -29,7 +29,7 @@ export default class App extends Component{
 
     this.setState({
       textoFrase: ' "' + this.frases[randomNumber] + '" ',
-      img: require('./src/biscoitoAberto.png') 
+      img: require('../biscoitoAberto.png') 
     })
   }
 

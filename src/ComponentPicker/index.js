@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, View, Text, Picker,} from 'react-native';
 
-export default class App extends Component{
+export default class ComponentPicker extends Component{
   constructor(props){
     super(props);
 

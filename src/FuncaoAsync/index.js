@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {StyleSheet, View, Text, TextInput, TouchableOpacity, Keyboard} from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 
-export default class App extends Component{
+export default class FuncaoAsync extends Component{
   constructor(props){
     super(props);
     this.state = {

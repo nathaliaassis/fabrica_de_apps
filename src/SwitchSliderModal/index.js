@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {StyleSheet, View, Text, Switch} from 'react-native';
+import {StyleSheet, View, Text, Switch, Button, Modal} from 'react-native';
 import Slider from '@react-native-community/slider';
-import ModalContent from './src/ModalContent';
+import ModalContent from '../ModalContent';
 
-export default class App extends Component{
+export default class SwitchSliderModal extends Component{
   constructor(props){
     super(props);
 
@@ -59,7 +59,7 @@ export default class App extends Component{
         <Text style={styles.title}>
           {this.state.value.toFixed(0)}
         </Text>
-        <Button title='entrar'onPress={this.entrar}/>
+        <Button title='entrar' onPress={this.entrar}/>
         <Modal transparent={true} animationType="slide" visible={this.state.modalVisible}>
             <ModalContent fechar={() => this.sair(false)}/>
         </Modal>

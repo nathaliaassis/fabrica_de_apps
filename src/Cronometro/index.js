@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {View, Text, Image, StyleSheet, TouchableOpacity,} from 'react-native';
 
-export default class App extends Component{
+export default class Cronometro extends Component{
 
   constructor(props){
     super(props);
     this.state = {
       timer: 0,
-      img: require('./src/cronometro.png'), 
+      img: require('../cronometro.png'), 
       action: 'começar'
     };
 
