@@ -21,6 +21,7 @@ class CustomDrawer extends Component {
         </View>
     }
 }
+export default CustomDrawer;
 
 const styles = StyleSheet.create({
     container:{
