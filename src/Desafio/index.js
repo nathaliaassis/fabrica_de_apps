@@ -6,10 +6,8 @@ export default class Desafio extends Component{
   constructor(props){
     super(props);
     this.state = {
-      inputnome: '',
-      inputIdade: '',
-      nome: this.state.inputnome,
-      idade: this.state.inputIdade,
+      nome: '',
+      idade: '',
       sexo: 0,
       generos: [
         {key: 1, select: 'Feminino'},

@@ -2,6 +2,7 @@ import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createDrawerNavigator} from '@react-navigation/drawer';
+import {CustomDrawer} from './src/Components/CustomDrawer/index';
  
 import Home from './src/Home';
 import ProjetosRotas from './src/ProjetosRotas';
@@ -32,13 +33,19 @@ export default function MyStack() {
         <Tab.Screen name="ProjetosRotas" component={ProjetosRotas} />
         <Tab.Screen name="Contato" component={Contato} />
       </Tab.Navigator> */}
-      <Drawer.Navigator>
+      <Drawer.Navigator
+        initialRouteName="Home"
+        drawerContentOptions={{
+          activeTintColor: '#ff5555',
+          contentContainerStyle: CustomDrawer
+        }}
+      >
         <Drawer.Screen
           name="Home"
           component={Home}
         />
-        <Drawer.Screen name="ProjetosRotas" component={ProjetosRotas} />
-        <Drawer.Screen name="Contato" component={Contato} />
+        <Drawer.Screen name="Projetos" component={ProjetosRotas} />
+        <Drawer.Screen name="Contatos" component={Contato} />
       </Drawer.Navigator>
     </NavigationContainer>
   );

@@ -3,20 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="018604cc-7f7a-49b9-a068-12d5815507c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/primeiroapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/primeiroapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Asynstorage/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Biscoito/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Biscoito/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/Contato/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Contato/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Cronometro/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Cronometro/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Desafio/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Desafio/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Flatlist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Insta/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Insta/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Picker/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ProjetosRotas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ProjetosRotas/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Sobre/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/SwitchSliderModal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SwitchSliderModal/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +41,8 @@
   <component name="ProjectId" id="1ZUFPxAEIcC8TIJoVHsJ4JqiNe9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="26eed73d" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-03-27T23:52:24.685Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5X_API_23_Curso" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-03-31T19:29:25.151Z" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>

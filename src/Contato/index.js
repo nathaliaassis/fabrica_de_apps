@@ -10,9 +10,9 @@ export default class Contato extends Component{
     return (
     
       <View style={styles.container}>
-        <LinearGradient colors={['#2e246c', '#190053', '#020024',]} style={styles.linearGradient}>
+        <LinearGradient colors={['#2980b9','#2c3e50',]} style={styles.linearGradient}>
           <Text style={styles.title}>
-            Nathalia Assis
+            Nathalia Ass
           </Text>
           <Text style={styles.subtitle}>
             (61) 98248-1874
