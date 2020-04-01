@@ -9,6 +9,7 @@ import ProjetosRotas from './src/ProjetosRotas';
 import Contato from './src/Pages/Contato';
 import Filmes from './src/Pages/Filmes';
 import Insta from './src/Pages/Insta';
+import ConversorDeMoedas from './src/Pages/ConversorDeMoedas';
 
 const Tab = createBottomTabNavigator();
 const Drawer = createDrawerNavigator();
@@ -36,7 +37,7 @@ export default function MyStack() {
         <Tab.Screen name="Contato" component={Contato} />
       </Tab.Navigator> */}
       <Drawer.Navigator
-        initialRouteName="Insta"
+        initialRouteName="Conversor"
         drawerContentOptions={{
           activeTintColor: '#ff5555',
           contentContainerStyle: CustomDrawer
@@ -50,6 +51,7 @@ export default function MyStack() {
         <Drawer.Screen name="Contatos" component={Contato} />
         <Drawer.Screen name="Filmes" component={Filmes} />
         <Drawer.Screen name="Insta" component={Insta} />
+        <Drawer.Screen name="Conversor" component={ConversorDeMoedas} />
       </Drawer.Navigator>
     </NavigationContainer>
   );

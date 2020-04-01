@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {StyleSheet, View, Text, TextInput, Picker, Switch, TouchableOpacity, TouchableWithoutFeedback,} from 'react-native';
+import {StyleSheet, View, Text, TextInput, Picker, Switch, TouchableOpacity, Keyboard,} from 'react-native';
 import Slider from '@react-native-community/slider';
+import AsyncStorage from '@react-native-community/async-storage';
 
 export default class Desafio extends Component{
   constructor(props){

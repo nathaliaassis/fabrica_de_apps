@@ -69,6 +69,7 @@ export default class Lista extends Component{
                 }
             });
         }else{
+        this.renderOverlay();
           this.setState({
             feed:{
               ...feed,
