@@ -8,6 +8,7 @@ import Home from './src/Pages/Home';
 import ProjetosRotas from './src/ProjetosRotas';
 import Contato from './src/Pages/Contato';
 import Filmes from './src/Pages/Filmes';
+import Insta from './src/Pages/Insta';
 
 const Tab = createBottomTabNavigator();
 const Drawer = createDrawerNavigator();
@@ -35,7 +36,7 @@ export default function MyStack() {
         <Tab.Screen name="Contato" component={Contato} />
       </Tab.Navigator> */}
       <Drawer.Navigator
-        initialRouteName="Home"
+        initialRouteName="Insta"
         drawerContentOptions={{
           activeTintColor: '#ff5555',
           contentContainerStyle: CustomDrawer
@@ -48,6 +49,7 @@ export default function MyStack() {
         <Drawer.Screen name="Projetos" component={ProjetosRotas} />
         <Drawer.Screen name="Contatos" component={Contato} />
         <Drawer.Screen name="Filmes" component={Filmes} />
+        <Drawer.Screen name="Insta" component={Insta} />
       </Drawer.Navigator>
     </NavigationContainer>
   );

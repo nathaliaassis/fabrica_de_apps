@@ -9,41 +9,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/facebook/react/PackageList.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/primeiroapp/BuildConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/primeiroapp/MainActivity.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/primeiroapp/MainApplication$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/primeiroapp/MainApplication.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/fa92f9b22a1a3b3184bf39c8a8b53495a78c19a9602d80f305581e54202d6016_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/fa92f9b22a1a3b3184bf39c8a8b53495a78c19a9602d80f305581e54202d6016_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/fa92f9b22a1a3b3184bf39c8a8b53495a78c19a9602d80f305581e54202d6016_2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Biscoito/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ComponentPicker/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Components/CustomDrawer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Components/CustomDrawer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Contato/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Cronometro/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Desafio/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/FuncaoAsync/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Home/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Insta/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Lista/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Projetos/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ProjetosRotas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ProjetosRotas/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/biscoito.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/biscoitoAberto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/cronometro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/img/like.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/img/likeada.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/img/logo@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/img/send.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Components/Lista/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Components/Lista/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Pages/Contato/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Pages/Contato/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

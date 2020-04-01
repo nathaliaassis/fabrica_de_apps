@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native';
+import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 
 export default class Lista extends Component{
 
@@ -7,11 +8,14 @@ export default class Lista extends Component{
         super(props);
         this.state = {
             feed: this.props.data,
+            lastTap: null,
         };
         this.mostraLikes = this.mostraLikes.bind(this);
         this.like = this.like.bind(this);
         this.loadIcon = this.loadIcon.bind(this);
+        this.handleDoubleTap = this.handleDoubleTap.bind(this);
     }
+
     mostraLikes(likers){
         let feed = this.state.feed;
 
@@ -25,17 +29,35 @@ export default class Lista extends Component{
             </Text>
         );
     }
+    handleDoubleTap(){
+        const now = Date.now();
+        const DOUBLE_TAP_DELAY = 300;
+        let feed = this.state.feed;
+
+        if(this.lastTap && (now - this.lastTap) < DOUBLE_TAP_DELAY && feed.likeada === false){
+            this.setState({
+                feed:{
+                  ...feed,
+                  likeada:true,
+                  likers: feed.likers + 1
+                }
+            });
+        }    
+        else{
+            this.lastTap = now;
+        }
+    }
     like(){
         let feed = this.state.feed;
     
         if(feed.likeada === true){
-          this.setState({
-            feed:{
-              ...feed,
-              likeada:false,
-              likers: feed.likers - 1
-            }
-          });
+            this.setState({
+                feed:{
+                    ...feed,
+                    likeada:false,
+                    likers: feed.likers - 1
+                }
+            });
         }else{
           this.setState({
             feed:{
@@ -62,11 +84,13 @@ export default class Lista extends Component{
                     />
                     <Text style={styles.userName}>{this.state.feed.nome}</Text>
                 </View>
-                <Image 
-                    resizeMode='cover'
-                    source={{uri: this.state.feed.post}}
-                    style={styles.post}
-                />
+                <TouchableWithoutFeedback onPress={this.handleDoubleTap}>
+                    <Image 
+                        resizeMode='cover'
+                        source={{uri: this.state.feed.post}}
+                        style={styles.post}
+                    />
+                </TouchableWithoutFeedback>
                 <View style={styles.areaBtns}>
                     <TouchableOpacity onPress={this.like}>
                         <Image 
