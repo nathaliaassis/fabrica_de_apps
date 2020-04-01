@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native';
+import { StyleSheet, View, Text, Image, TouchableOpacity, Animated} from 'react-native';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 
 export default class Lista extends Component{
@@ -14,7 +14,9 @@ export default class Lista extends Component{
         this.like = this.like.bind(this);
         this.loadIcon = this.loadIcon.bind(this);
         this.handleDoubleTap = this.handleDoubleTap.bind(this);
-    }
+        this.renderOverlay = this.renderOverlay.bind(this);
+    }    
+    animatedValue = new Animated.Value(0);
 
     mostraLikes(likers){
         let feed = this.state.feed;
@@ -34,14 +36,22 @@ export default class Lista extends Component{
         const DOUBLE_TAP_DELAY = 300;
         let feed = this.state.feed;
 
-        if(this.lastTap && (now - this.lastTap) < DOUBLE_TAP_DELAY && feed.likeada === false){
-            this.setState({
-                feed:{
-                  ...feed,
-                  likeada:true,
-                  likers: feed.likers + 1
-                }
-            });
+        if(this.lastTap && (now - this.lastTap) < DOUBLE_TAP_DELAY){
+
+            if(feed.likeada === false){
+                this.setState({
+                    feed:{
+                      ...feed,
+                      likeada:true,
+                      likers: feed.likers + 1
+                    }
+                });
+            }
+
+            Animated.sequence([
+                Animated.spring(this.animatedValue, { toValue: 1, useNativeDriver: true }),
+                Animated.spring(this.animatedValue, { toValue: 0, useNativeDriver: true }),
+            ]).start();
         }    
         else{
             this.lastTap = now;
@@ -73,6 +83,33 @@ export default class Lista extends Component{
         return likeada ? require('../../Assets/img/likeada.png') : 
                 require('../../Assets/img/like.png')
     }
+    renderOverlay(){
+
+        const imageStyles = [
+            styles.overlayHeart,
+            {
+                opacity: this.animatedValue,
+                transform: [
+                {
+                    scale: this.animatedValue.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: [0.7, 1.5],
+                    }),
+                },
+                ],
+            },
+        ];
+        return(
+            <View style={styles.overlay}> 
+                <Animated.Image 
+                    source={require('../../Assets/img/heart.png')}
+                    style={imageStyles}
+                />      
+            </View>
+        );
+    }
+
+  
 
     render(){
         return(
@@ -85,11 +122,14 @@ export default class Lista extends Component{
                     <Text style={styles.userName}>{this.state.feed.nome}</Text>
                 </View>
                 <TouchableWithoutFeedback onPress={this.handleDoubleTap}>
-                    <Image 
-                        resizeMode='cover'
-                        source={{uri: this.state.feed.post}}
-                        style={styles.post}
-                    />
+                    <View>
+                        <Image 
+                            resizeMode='cover'
+                            source={{uri: this.state.feed.post}}
+                            style={styles.post}
+                        />
+                        {this.renderOverlay()}
+                    </View>
                 </TouchableWithoutFeedback>
                 <View style={styles.areaBtns}>
                     <TouchableOpacity onPress={this.like}>
@@ -176,5 +216,17 @@ const styles = StyleSheet.create({
         paddingLeft: 5,
         fontSize: 15,
         color: '#1e1e1e',
+    },
+    overlay: {
+        position: 'absolute',
+        alignItems: 'center',
+        justifyContent: 'center',
+        left: 0,
+        right: 0,
+        top: 0,
+        bottom: 0,
+    },
+    overlayHeart: {
+    tintColor: 'rgba(255,255,255,0.8)',
     },
 });
