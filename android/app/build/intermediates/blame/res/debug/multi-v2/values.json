@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\projetos_pessoais\\primeiroApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\projetos_pessoais\\fabrica_de_apps\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Nath\\.gradle\\caches\\transforms-2\\files-2.1\\1cd7eff88f5e86d0249af2958bf465f0\\core-1.1.0\\res\\values\\values.xml",
@@ -42,24 +42,7 @@
                     }
                 },
                 {
-                    "source": "D:\\projetos_pessoais\\primeiroApp\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "48",
-                        "endOffsets": "60"
-                    },
-                    "to": {
-                        "startLines": "668",
-                        "startColumns": "4",
-                        "startOffsets": "42819",
-                        "endColumns": "48",
-                        "endOffsets": "42863"
-                    }
-                },
-                {
-                    "source": "D:\\projetos_pessoais\\primeiroApp\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
+                    "source": "D:\\projetos_pessoais\\fabrica_de_apps\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
                     "from": {
                         "startLines": "6,7",
                         "startColumns": "4,4",
@@ -92,6 +75,25 @@
                         "endLines": "4500,4507,4518,6765,6770",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "301488,301873,302470,420953,421223"
+                    }
+                },
+                {
+                    "source": "D:\\projetos_pessoais\\fabrica_de_apps\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "237"
+                    },
+                    "to": {
+                        "startLines": "792",
+                        "startColumns": "4",
+                        "startOffsets": "57881",
+                        "endLines": "795",
+                        "endColumns": "12",
+                        "endOffsets": "58058"
                     }
                 },
                 {
@@ -245,22 +247,20 @@
                     }
                 },
                 {
-                    "source": "D:\\projetos_pessoais\\primeiroApp\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\projetos_pessoais\\fabrica_de_apps\\android\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "3",
+                        "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "231"
+                        "startOffsets": "17",
+                        "endColumns": "48",
+                        "endOffsets": "61"
                     },
                     "to": {
-                        "startLines": "792",
+                        "startLines": "668",
                         "startColumns": "4",
-                        "startOffsets": "57881",
-                        "endLines": "795",
-                        "endColumns": "12",
-                        "endOffsets": "58058"
+                        "startOffsets": "42819",
+                        "endColumns": "48",
+                        "endOffsets": "42863"
                     }
                 },
                 {

@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
-MERGED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-community_async-storage] D:\projetos_pessoais\primeiroApp\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_masked-view] D:\projetos_pessoais\primeiroApp\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_slider] D:\projetos_pessoais\primeiroApp\node_modules\@react-native-community\slider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-gesture-handler] D:\projetos_pessoais\primeiroApp\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] D:\projetos_pessoais\primeiroApp\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-safe-area-context] D:\projetos_pessoais\primeiroApp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] D:\projetos_pessoais\primeiroApp\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-community_async-storage] D:\projetos_pessoais\fabrica_de_apps\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] D:\projetos_pessoais\fabrica_de_apps\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_slider] D:\projetos_pessoais\fabrica_de_apps\node_modules\@react-native-community\slider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\cc8f65edd33d857989e0ef9cb2a68c6c\jetified-react-native-0.61.5\AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\8f63473d5a992fa305fe3da8f10368e1\jetified-android-jsc-r245459\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-linear-gradient] D:\projetos_pessoais\primeiroApp\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\c6c160beabe7f4f404dcf7d40c9cb143\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\f7fa931c10060cb31b4ececcd856b65d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\4ea367cfbff3bd7f8a9380a445a9362f\jetified-fresco-2.0.0\AndroidManifest.xml:2:1-9:12
@@ -52,34 +52,34 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Nath\.gradle\caches\
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\54ec9a60a0f20829d9c5323f1ce0908c\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\becbcdb90dd6658fa9922119d9ed69f9\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\1cfd2abfffba474819c6ba886bdc15c5\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml:2:1-8:12
-INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml:2:1-8:12
-INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml:2:1-8:12
+INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml:2:1-8:12
+INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml:2:1-8:12
+INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 	package
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:2:3-28
-		INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:2:3-28
-		INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:2:3-28
+		INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:2:3-28
+		INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
-		INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml:3:5-51
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
-		INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:6:5-24:19
-MERGED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:6:5-24:19
-MERGED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:6:5-24:19
+ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:6:5-24:19
+MERGED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:6:5-24:19
+MERGED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:6:5-24:19
 MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\cc8f65edd33d857989e0ef9cb2a68c6c\jetified-react-native-0.61.5\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\cc8f65edd33d857989e0ef9cb2a68c6c\jetified-react-native-0.61.5\AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\c6c160beabe7f4f404dcf7d40c9cb143\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -93,77 +93,77 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Na
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:8:7-39
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:8:7-39
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:8:7-39
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:8:7-39
 	tools:ignore
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml:7:75-114
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml:7:75-114
 	android:roundIcon
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:10:7-52
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:10:7-52
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:10:7-52
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:10:7-52
 	tools:targetApi
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml:7:54-74
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:9:7-41
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:9:7-41
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:9:7-41
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:9:7-41
 	android:allowBackup
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:11:7-34
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:12:7-38
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:12:7-38
 	android:usesCleartextTraffic
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml:7:18-53
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml:7:18-53
 	android:name
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:7:7-38
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:7:7-38
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:7:7-38
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:7:7-38
 activity#com.primeiroapp.MainActivity
-ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:13:7-22:18
+ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:16:9-79
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:14:9-37
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:18:9-21:25
+ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:19:13-65
+ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:19:21-62
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:20:13-73
+ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:20:23-70
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:23:7-84
+ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:23:7-84
 	android:name
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml:23:17-81
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml:23:17-81
 uses-sdk
-INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml
-INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml
-MERGED from [:react-native-community_async-storage] D:\projetos_pessoais\primeiroApp\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_async-storage] D:\projetos_pessoais\primeiroApp\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] D:\projetos_pessoais\primeiroApp\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] D:\projetos_pessoais\primeiroApp\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_slider] D:\projetos_pessoais\primeiroApp\node_modules\@react-native-community\slider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_slider] D:\projetos_pessoais\primeiroApp\node_modules\@react-native-community\slider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] D:\projetos_pessoais\primeiroApp\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] D:\projetos_pessoais\primeiroApp\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] D:\projetos_pessoais\primeiroApp\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] D:\projetos_pessoais\primeiroApp\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-safe-area-context] D:\projetos_pessoais\primeiroApp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] D:\projetos_pessoais\primeiroApp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] D:\projetos_pessoais\primeiroApp\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-screens] D:\projetos_pessoais\primeiroApp\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-community_async-storage] D:\projetos_pessoais\fabrica_de_apps\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] D:\projetos_pessoais\fabrica_de_apps\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] D:\projetos_pessoais\fabrica_de_apps\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] D:\projetos_pessoais\fabrica_de_apps\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_slider] D:\projetos_pessoais\fabrica_de_apps\node_modules\@react-native-community\slider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_slider] D:\projetos_pessoais\fabrica_de_apps\node_modules\@react-native-community\slider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\cc8f65edd33d857989e0ef9cb2a68c6c\jetified-react-native-0.61.5\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\cc8f65edd33d857989e0ef9cb2a68c6c\jetified-react-native-0.61.5\AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\8f63473d5a992fa305fe3da8f10368e1\jetified-android-jsc-r245459\AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\8f63473d5a992fa305fe3da8f10368e1\jetified-android-jsc-r245459\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-linear-gradient] D:\projetos_pessoais\primeiroApp\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-linear-gradient] D:\projetos_pessoais\primeiroApp\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] D:\projetos_pessoais\fabrica_de_apps\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\c6c160beabe7f4f404dcf7d40c9cb143\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\c6c160beabe7f4f404dcf7d40c9cb143\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\f7fa931c10060cb31b4ececcd856b65d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -238,15 +238,15 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Nath\.gr
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\becbcdb90dd6658fa9922119d9ed69f9\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\1cfd2abfffba474819c6ba886bdc15c5\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nath\.gradle\caches\transforms-2\files-2.1\1cfd2abfffba474819c6ba886bdc15c5\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml
-INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml:5:5-77
+ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from D:\projetos_pessoais\primeiroApp\android\app\src\debug\AndroidManifest.xml:5:22-75
+		ADDED from D:\projetos_pessoais\fabrica_de_apps\android\app\src\debug\AndroidManifest.xml:5:22-75
