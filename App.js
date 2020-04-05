@@ -37,7 +37,7 @@ export default function MyStack() {
         <Tab.Screen name="Contato" component={Contato} />
       </Tab.Navigator> */}
       <Drawer.Navigator
-        initialRouteName="Home"
+        initialRouteName="Conversor"
         drawerContentOptions={{
           activeTintColor: '#ff5555',
           contentContainerStyle: CustomDrawer
