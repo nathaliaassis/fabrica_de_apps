@@ -1,4 +1,4 @@
-#Sun Apr 05 10:48:03 BRT 2020
+#Tue Apr 07 15:18:25 BRT 2020
 base.0=D\:\\projetos_pessoais\\fabrica_de_apps\\android\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

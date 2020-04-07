@@ -1,6 +1,5 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {CustomDrawer} from './src/Components/CustomDrawer/index';
  
@@ -10,32 +9,12 @@ import Contato from './src/Pages/Contato';
 import Filmes from './src/Pages/Filmes';
 import Insta from './src/Pages/Insta';
 import ConversorDeMoedas from './src/Pages/ConversorDeMoedas';
-
-const Tab = createBottomTabNavigator();
 const Drawer = createDrawerNavigator();
 
 export default function MyStack() {
+
   return (
     <NavigationContainer>
-      {/* <Tab.Navigator
-      initialRouteName="ProjetosRotas"
-        tabBarOptions={{
-          activeTintColor: '#2e246c',
-          inactiveTintColor: 'gray',
-          labelPosition: 'beside-icon',
-          style:{
-            backgroundColor: 'white',
-          }
-        }}
-      >
-        
-        <Tab.Screen
-          name="Home"
-          component={Home}
-        />
-        <Tab.Screen name="ProjetosRotas" component={ProjetosRotas} />
-        <Tab.Screen name="Contato" component={Contato} />
-      </Tab.Navigator> */}
       <Drawer.Navigator
         initialRouteName="Home"
         drawerContentOptions={{

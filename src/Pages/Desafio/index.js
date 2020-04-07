@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {StyleSheet, View, Text, TextInput, Picker, Switch, TouchableOpacity, Keyboard,} from 'react-native';
 import Slider from '@react-native-community/slider';
 import AsyncStorage from '@react-native-community/async-storage';
+console.disableYellowBox = true;
 
 export default class Desafio extends Component{
   constructor(props){
@@ -65,7 +66,6 @@ export default class Desafio extends Component{
     return (
     
       <View style={styles.container}>
-        <Text style={styles.title}>Banco React</Text>
         <Text style={styles.sub}>O desafio</Text>
         <TextInput
           style={styles.input}
@@ -78,6 +78,7 @@ export default class Desafio extends Component{
         <TextInput
           style={styles.input}
           value={this.state.idade}
+          keyboardType="number-pad"
           onChangeText={(number) => this.setState({
             idade: number
           })} 
@@ -129,7 +130,7 @@ export default class Desafio extends Component{
         </TouchableOpacity>
 
         <View style={styles.card}> 
-            <Text>Nome: {this.state.dados}</Text>
+            <Text>{this.state.dados}</Text>
         </View>
       </View> 
     );
@@ -149,12 +150,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginVertical: 4
-  },
-  title:{
-    color: 'white',
-    fontSize: 40,
-    textAlign: 'center',
-    textTransform: "uppercase",
   },
   sub:{
     color: 'white',
